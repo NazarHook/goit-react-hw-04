@@ -42,11 +42,6 @@ return [...PrevList, ...data]
   })}
 } catch (error) {
   setError(true)
-  iziToast.error({
-    message: 'Sorry there is a little issue, please reload!',
-    position: 'topCenter',
-    title: 'Error',
-  });
 }
 finally{
   setLoader(false)
